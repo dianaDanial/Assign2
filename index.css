@@ -1,0 +1,505 @@
+
+body {background-color:#ffffff;
+		margin-right: auto;
+		margin-left:auto;
+}
+
+
+/******** Image Properties ********/
+		
+img.logo {
+	height: 190px;
+	width: 210px;
+	margin: auto;
+    display: flex;
+}		
+
+#socialLinks { 
+	float: right;
+	width: 14.5%;
+	margin: auto;
+	padding-top: 13%;
+	padding-right: 2.8%;
+	background-color:#FA8072;
+}
+		
+#socialLinks li {
+	list-style-type: none;
+}
+
+
+/********Navigation ********/
+
+#nav-bar {  min-width: 600px;
+           max-width: 100%;
+}
+
+nav {  background-color: #FA8072 ; 
+	   letter-spacing: 0.1em;
+	   width:100%;
+	   text-align: right; 
+	   padding-right: 0;
+	   position: relative;
+	   display: block;
+	   list-style-type: none;
+	   overflow: hidden;
+	   float:center;
+	   border-radius: 4px 4px 4px 4px;
+	   color: white;
+}
+
+li {
+    float: left;
+} 
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: "Bookman Old Style", serif;
+	font-size: 22px;
+}
+
+nav ul { list-style-type: none; 
+			margin-top: 0;
+			float: left;
+}
+
+nav ul ul { 
+		position: fixed; 
+		padding: 0; 
+		text-align: left; 
+		display: none;
+		background-color:#cbc2b8;
+		width: 300px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		padding: 12px 16px;
+		z-index: 10;
+}		}
+
+nav ul ul li { border: 1px solid #00005D; 
+          display: block; 
+		  width:1em; 
+		  padding-left: 1em; 
+		  margin-left: 0;
+	  }
+	
+nav li:hover ul { display: block;}
+
+nav li { padding: 0.5em;
+      display: block;
+}
+nav a { text-decoration: none; 
+       display: block;
+}
+nav a:link { color: #FFFFFF; }
+nav a:hover {  color: #D3DBEB;
+				background-color: #ffb392;}
+
+
+/********About AGN Images ********/
+.staff img {
+float: none;
+}
+
+.povertyImg{
+	float:center;
+	display: block;
+	max-width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+	
+#facesImg{
+	padding-left: 30px;
+	padding-bottom: 30px;
+	float: right;
+}
+
+
+/******** Index Information ********/
+
+.information {
+	background-color: #FA8072;
+	float:center;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 100px; 
+}
+
+.informationTitle{
+	color: #ffffff;
+	text-align: center;
+	font-size: 70px;
+	font-family: "American Typewriter", serif;
+	text-decoration-line: underline;
+	
+}
+
+
+.Information-content {
+	text-align: justify;
+	margin: 0 auto;
+	width: 30em;
+	float: center;
+	font-size: 25px;
+	font-family: "Times New Roman", serif;
+}
+/******** About Us ********/
+.about {
+	background-color: #ffffff;
+	float:left;
+	margin-left:5%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 100px; 
+}
+
+.aboutTitle{
+	color: #bc4b4b;
+	text-align: center;
+	font-size: 60px;
+	font-family: "Freestyle Script", serif;
+	text-decoration: underline overline;
+	
+}
+.aboutInfo{	
+	color: #0892d0;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Freestyle Script", serif;
+	text-decoration: underline overline;
+}
+.aboutContent {
+	text-align: justify;
+	margin: 0 auto;
+	width: 30em;
+	float: center;
+	font-size: 25px;
+	font-family: "Bookman Old Style", serif;
+}	
+/******Our Work******/
+
+.infoWork {
+	background-color: #ffffff;
+	float:left;
+	margin-left:10%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 100px; 
+	padding-left: 20px;
+}
+
+.workTitle{
+	color: #bc4b4b;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Courier", monospace;
+	text-decoration: overline underline;
+	
+}
+.workInfo{	
+	color: #0892d0;
+	text-align: left;
+	font-size: 35px;
+	font-weight:bold;
+	font-family: "Freestyle Script", sans-serif;
+	text-decoration: underline;
+}
+.workContent {
+	text-align: justify;
+	margin: 0 auto;
+	width: 30em;
+	float: center;
+	font-size: 20px;
+	font-family: "Bookman Old Style", serif;
+}	
+/******** Contact Us ********/	
+#entirewrap {
+	margin-top: 14px;
+	margin-left: 2.5%;
+	width: 75%;
+	border: 1px solid #FA8072;
+	border: 1px solid #FA8072;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#relcontact {
+	letter-spacing: 2px;
+	margin: 0%;
+	background-color: #ffffff;
+	opacity: 0.92;
+	border: 1px solid rgb(183, 151, 156);
+    border: 1px solid rgba(183, 151, 156, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+}
+	
+.contactinfo {
+	letter-spacing:1px;
+	font-family:"Raleway", sans-serif;
+	font-size:20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FA8072;
+}
+
+.contactdetails {
+	letter-spacing:1px;
+	font-family:"Raleway", sans-serif;
+	font-size:20px;
+	text-align: center;
+	color: #00b1af;
+}
+
+.contactdetails a {
+	color: #00b1af;
+	cursor: url(cursor.png), auto;
+}
+
+.contactdetails a:hover {
+	text-decoration:underline;
+	color: #FA8072;
+	cursor: url(cursor.png), auto;
+}
+
+#page-wrap {
+	width: auto;
+	background: white;
+	opacity: 0.93;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin: auto;
+	min-height: 360px;
+	height: 300px;
+	border: 1px solid rgb(183, 151, 156);
+    border: 1px solid rgba(183, 151, 156, .5);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+}
+
+#contacttitle {
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 35px;
+	text-align: center;
+	font-family:"Raleway", sans-serif;
+	color: #ff0000;
+}
+
+#contact-area {
+	width: 80%;
+	margin-top: 2.8%;
+	padding-left: 8%;
+	font-family:"Raleway", sans-serif;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 3px;
+	width: 55%;
+	font-size: 1.2em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ffd2da;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #fff;
+}
+
+#contact-area input.submit-button {
+	font-family:"Trebuchet MS",sans-serif;
+	text-transform: uppercase;
+    background-color: #FA8072;
+    color: white;
+	height: 2.5%;
+	width: 14.5%;
+    padding: 1.2%;
+    font-size: 118%;
+    cursor: pointer;
+	float: right;
+}
+
+#contact-area input.submit-button:hover {
+    background-color: #FFB1B0;
+	opacity: 0.9;
+}	
+/**************************donation******************************/
+
+.donate {
+	background-color: #ffffff;
+	float:left;
+	margin-left:5%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 100px; 
+}
+
+.donateTitle{
+	color: #bc4b4b;
+	text-align: center;
+	font-size: 60px;
+	font-family: "Freestyle Script", serif;
+	text-decoration: underline overline;
+	
+}
+.donateInfo{	
+	color: #0892d0;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Freestyle Script", serif;
+	text-decoration: underline overline;
+}
+.donateContent {
+	text-align: justify;
+	margin: 0 auto;
+	width: 30em;
+	float: center;
+	font-size: 25px;
+	font-family: "Bookman Old Style", serif;
+}
+/************************************To get Involved************************/
+
+.help{
+	background-color: #ffffff;
+	float:left;
+	margin-left:5%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 100px; 
+}
+
+.helpTitle{
+	color: #bc4b4b;
+	text-align: center;
+	font-size: 60px;
+	font-family: "Freestyle Script", serif;
+	text-decoration: underline overline;
+	
+}
+.helpInfo{	
+	color: #0892d0;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Freestyle Script", serif;
+	text-decoration: underline overline;
+}
+.helpContent {
+	text-align: justify;
+	margin: 0 auto;
+	width: 30em;
+	float: center;
+	font-size: 25px;
+	font-family: "Bookman Old Style", serif;
+}
+
+
+/******** Footer ********/	
+#topbutton {
+	border-radius:50%; 
+	color:#000000;
+	background-color:#FA8072;
+	font-size:30px;
+	padding:5px 8px 8px 8px;
+	position:absolute;
+	text-decoration:none;
+	margin-top:-15px;
+	cursor: url(Cursor.png), auto;
+	-webkit-transition:all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+#topbutton:hover {
+	background-color:#FA8072;
+	color:#000000;
+}
+
+#tophover{
+	display:none;
+}
+
+#topbutton:hover  #tophover{
+	display:block;
+	font-size:18px;
+	padding:7px 0 7px 0;
+}
+
+#topbutton:hover  #topnohover{
+	display:none;
+}		
+footer {
+	background-color:#2BBBFF;
+	color:black;
+	font-family: "Bookman Old Style", serif;
+	width:97.5%;
+	text-align:center;
+	margin-top: 7%;
+	padding:1.2%;
+	bottom: 0;
+	position: relative;
+	overflow: hidden;
+}	
+
+.footerLeft{
+	float: left;
+    width: 33%;
+}
+
+.footerRight{
+    float: right;
+	width: 33%;
+}
+
+footer a { color: black; }
+footer a:hover {  color: white; }
+
+
+/********************************/	
+
+@media only screen and (max-width:1024x)
+body {margin:0;}
+#nav-bar{width:auto;}
+main {margin-left:o;}
+nav {float: none; width:auto;
+nav li {diplay: inline-block;
+	padding:0.5em;}
+nav ul {text-align:center;}
+nav a {border-style: none;}
+h1, h2 {font-size:120%;}
+p {font-size: 90%;}
+
+@media only screen and (max-width:768px)
+h1, h2 {font-size: 100%;}
+p {font-size: 90%;}
+figure {display: none;}
+nav, nav ul, nav li {padding:0;}
+nav li {display:block;}
+nav a {display:block; padding:0.5em 0;
+		border-bottom: 2px ridge #00005D;}
+header, main, nav, footer {
+	display: block;
+}
